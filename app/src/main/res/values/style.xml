@@ -1,66 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
 
-    <style name="ToolBar">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="contentInsetEnd">0dp</item>
-        <item name="contentInsetStart">0dp</item>
-    </style>
-
-    <style name="BottomTabMenuText" parent="@style/TextAppearance.AppCompat.Caption">
-        <item name="android:textSize">9sp</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="Divider">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">1dp</item>
-        <item name="android:background">@color/divider</item>
-    </style>
-
-    <style name="Button.Full" parent="Widget.AppCompat.Button">
-        <item name="android:theme">@style/Ripple.Light</item>
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">70dp</item>
-        <item name="android:textSize">18sp</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:foreground">?attr/selectableItemBackground</item>
-        <item name="android:background">@drawable/selector_button_full</item>
-        <item name="android:gravity">center</item>
-    </style>
-
-    <style name="Text">
-        <item name="android:textSize">12sp</item>
-        <item name="android:textColor">@color/primaryTextColor</item>
-    </style>
-
-    <style name="Text.Big" parent="Text">
-        <item name="android:textSize">18sp</item>
-    </style>
-
-    <style name="Text.Big.White" parent="Text.Big">
-        <item name="android:textColor">@color/white</item>
-    </style>
-
-    <style name="Dot">
-        <item name="android:layout_width">12dp</item>
-        <item name="android:layout_height">12dp</item>
-        <item name="android:src">@drawable/selector_dot</item>
-    </style>
-
-    <style name="Button.KeyPad" parent="Widget.AppCompat.TextView">
-        <item name="android:layout_width">0dp</item>
-        <item name="android:layout_height">0dp</item>
-        <item name="android:layout_columnWeight">1</item>
-        <item name="android:layout_rowWeight">1</item>
-        <item name="android:theme">@style/Ripple.Light</item>
-        <item name="android:foreground">?attr/selectableItemBackgroundBorderless</item>
-        <item name="android:gravity">center</item>
-        <item name="android:textColor">@color/white</item>
-        <item name="android:textSize">20sp</item>
-    </style>
-
     <style name="List">
         <item name="android:background">@color/backgroundColor</item>
         <item name="android:clipToPadding">false</item>
