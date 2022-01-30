@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="1.8">
+      <module name="Clean_Mvvm.app" target="11" />
+      <module name="Clean_Mvvm.buildSrc" target="11" />
+      <module name="Clean_Mvvm.data" target="11" />
+      <module name="Tax_Solution.app" target="11" />
+      <module name="Tax_Solution.buildSrc" target="11" />
+      <module name="Tax_Solution.data" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="title" format="string" />
+    <attr name="subtitle" format="string" />
+    <attr name="content" format="string" />
+    <attr name="icon" format="reference" />
+
+    <declare-styleable name="SmartTabLayout">
+        <attr name="indicatorAlwaysInCenter" format="boolean" />
+        <attr name="indicatorWithoutPadding" format="boolean" />
+        <attr name="indicatorInFront" format="boolean" />
+        <attr name="indicatorInterpolation" format="enum">
+            <enum name="smart" value="0" />
+            <enum name="linear" value="1" />
+        </attr>
+        <attr name="indicatorGravity" format="enum">
+            <enum name="bottom" value="0" />
+            <enum name="top" value="1" />
+            <enum name="center" value="2" />
+        </attr>
+        <attr name="indicatorColor" format="color" />
+        <attr name="indicatorColors" format="reference" />
+        <attr name="indicatorThickness" format="dimension" />
+        <attr name="indicatorWidth" format="dimension">
+            <enum name="auto" value="-1" />
+        </attr>
+        <attr name="indicatorCornerRadius" format="dimension" />
+        <attr name="overlineColor" format="color" />
+        <attr name="overlineThickness" format="dimension" />
+        <attr name="underlineColor" format="color" />
+        <attr name="underlineThickness" format="dimension" />
+        <attr name="dividerColor" format="color" />
+        <attr name="dividerColors" format="reference" />
+        <attr name="dividerThickness" format="dimension" />
+        <attr name="defaultTabBackground" format="reference" />
+        <attr name="defaultTabTextAllCaps" format="boolean" />
+        <attr name="defaultTabTextColor" format="color|reference" />
+        <attr name="defaultTabTextSize" format="dimension" />
+        <attr name="defaultTabTextHorizontalPadding" format="dimension" />
+        <attr name="defaultTabTextMinWidth" format="dimension" />
+        <attr name="customTabTextLayoutId" format="reference" />
+        <attr name="customTabTextViewId" format="reference" />
+        <attr name="distributeEvenly" format="boolean" />
+        <attr name="clickable" format="boolean" />
+        <attr name="titleOffset" format="dimension">
+            <enum name="auto_center" value="-1" />
+        </attr>
+        <attr name="drawDecorationAfterTab" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="LoadingDots">
+        <attr name="LoadingDots_auto_play" format="boolean" />
+
+        <attr name="LoadingDots_dots_color" format="color" />
+        <attr name="LoadingDots_dots_count" format="integer" />
+        <attr name="LoadingDots_dots_size" format="dimension" />
+        <attr name="LoadingDots_dots_space" format="dimension" />
+
+        <attr name="LoadingDots_loop_duration" format="integer" />
+        <attr name="LoadingDots_loop_start_delay" format="integer" />
+
+        <attr name="LoadingDots_jump_duration" format="integer" />
+        <attr name="LoadingDots_jump_height" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="TitleToolBar">
+        <attr name="title" />
+        <attr name="subtitle" />
+        <attr name="showDivider" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="AgreeView">
+        <attr name="android:text" />
+        <attr name="android:background" />
+        <attr name="showArrow" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="AgreeDetailView">
+        <attr name="android:text" />
+        <attr name="showDetail" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="HtmlTextView">
+        <attr name="html" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="ItemContentView">
+        <attr name="title" />
+        <attr name="badge" format="string" />
+        <attr name="badgeColor" format="color" />
+        <attr name="content" />
+        <attr name="contentSize" format="dimension" />
+        <attr name="titleSize" format="dimension" />
+        <attr name="contentStyle">
+            <flag name="normal" value="0" />
+            <flag name="bold" value="1" />
+            <flag name="italic" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="MenuView">
+        <attr name="icon" />
+        <attr name="android:text" />
+        <attr name="android:checked"/>
+        <attr name="info" format="string"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../../layout/custom_preview.xml" value="0.45185185185185184" />
+        <entry key="app/src/main/res/drawable/box_r10.xml" value="0.25092592592592594" />
+        <entry key="app/src/main/res/drawable/empty_20.xml" value="0.1925925925925926" />
+        <entry key="app/src/main/res/drawable/gradient.xml" value="0.1925925925925926" />
+        <entry key="app/src/main/res/drawable/ic_check_on.xml" value="0.45185185185185184" />
+        <entry key="app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.1671875" />
+        <entry key="app/src/main/res/drawable/ic_icon_memo_off.xml" value="0.1671875" />
+        <entry key="app/src/main/res/drawable/ic_note.xml" value="0.13072916666666667" />
+        <entry key="app/src/main/res/drawable/ic_right.xml" value="0.25092592592592594" />
+        <entry key="app/src/main/res/drawable/ic_tip_on.xml" value="0.1671875" />
+        <entry key="app/src/main/res/drawable/left_off.xml" value="0.25092592592592594" />
+        <entry key="app/src/main/res/drawable/loading_dot.xml" value="0.24814814814814815" />
+        <entry key="app/src/main/res/drawable/rectangle_000000_r5.xml" value="0.24444444444444444" />
+        <entry key="app/src/main/res/drawable/rectangle_4a2be2_r10.xml" value="0.24814814814814815" />
+        <entry key="app/src/main/res/drawable/rectangle_4a2be2_r25.xml" value="0.24444444444444444" />
+        <entry key="app/src/main/res/drawable/rectangle_4a2be2_r5.xml" value="0.2947916666666667" />
+        <entry key="app/src/main/res/drawable/rectangle_4a2be2_stroke_r5.xml" value="0.2947916666666667" />
+        <entry key="app/src/main/res/drawable/rectangle_dddddd_r10.xml" value="0.25092592592592594" />
+        <entry key="app/src/main/res/drawable/rectangle_dddddd_stroke_r10.xml" value="0.25092592592592594" />
+        <entry key="app/src/main/res/drawable/rectangle_dddddd_stroke_r5.xml" value="0.25092592592592594" />
+        <entry key="app/src/main/res/drawable/rectangle_f5f5f5_top_r10.xml" value="0.24444444444444444" />
+        <entry key="app/src/main/res/drawable/rectangle_ffffff_4a2be2_r10.xml" value="0.32395833333333335" />
+        <entry key="app/src/main/res/drawable/rectangle_ffffff_dddddd_both_side.xml" value="0.24444444444444444" />
+        <entry key="app/src/main/res/drawable/rectangle_ffffff_dddddd_r10.xml" value="0.25092592592592594" />
+        <entry key="app/src/main/res/drawable/rectangle_ffffff_dddddd_r25.xml" value="0.24444444444444444" />
+        <entry key="app/src/main/res/drawable/rectangle_ffffff_dddddd_r5.xml" value="0.25092592592592594" />
+        <entry key="app/src/main/res/drawable/rectangle_ffffff_dddddd_top_r10.xml" value="0.24444444444444444" />
+        <entry key="app/src/main/res/drawable/rectangle_white_r10.xml" value="0.2947916666666667" />
+        <entry key="app/src/main/res/drawable/ripple_000000.xml" value="0.2388888888888889" />
+        <entry key="app/src/main/res/drawable/select_left_off.xml" value="0.25092592592592594" />
+        <entry key="app/src/main/res/drawable/select_left_on.xml" value="0.25092592592592594" />
+        <entry key="app/src/main/res/drawable/select_right_off.xml" value="0.25092592592592594" />
+        <entry key="app/src/main/res/drawable/select_right_on.xml" value="0.25092592592592594" />
+        <entry key="app/src/main/res/drawable/selector_button_full.xml" value="0.2388888888888889" />
+        <entry key="app/src/main/res/drawable/selector_check.xml" value="0.25092592592592594" />
+        <entry key="app/src/main/res/drawable/selector_check_agree.xml" value="0.45185185185185184" />
+        <entry key="app/src/main/res/drawable/selector_dddddd_4a2be2_fill_r10.xml" value="0.24814814814814815" />
+        <entry key="app/src/main/res/drawable/selector_dddddd_4a2be2_fill_r25.xml" value="0.24444444444444444" />
+        <entry key="app/src/main/res/drawable/selector_dddddd_4a2be2_r10.xml" value="0.32395833333333335" />
+        <entry key="app/src/main/res/drawable/selector_dot.xml" value="0.24814814814814815" />
+        <entry key="app/src/main/res/drawable/selector_existing_business.xml" value="0.24814814814814815" />
+        <entry key="app/src/main/res/drawable/selector_left.xml" value="0.25092592592592594" />
+        <entry key="app/src/main/res/drawable/selector_new_business.xml" value="0.24814814814814815" />
+        <entry key="app/src/main/res/drawable/selector_right.xml" value="0.25092592592592594" />
+        <entry key="app/src/main/res/font/lifeplus.xml" value="0.18125" />
+        <entry key="app/src/main/res/font/lifeplus_body_hint.xml" value="0.18125" />
+        <entry key="app/src/main/res/font/lifeplus_body_otf.xml" value="0.18125" />
+        <entry key="app/src/main/res/font/lifeplusotf.xml" value="0.18125" />
+        <entry key="app/src/main/res/font/spoqahansansneo.xml" value="0.18125" />
+        <entry key="app/src/main/res/layout-v23/activity_verify_sms.xml" value="0.2786458333333333" />
+        <entry key="app/src/main/res/layout-v23/widget_agree_all.xml" value="0.40625" />
+        <entry key="app/src/main/res/layout/activity_add_account.xml" value="0.2796875" />
+        <entry key="app/src/main/res/layout/activity_complete.xml" value="0.2796875" />
+        <entry key="app/src/main/res/layout/activity_complete_signup.xml" value="0.2796875" />
+        <entry key="app/src/main/res/layout/activity_loading.xml" value="0.2796875" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.327313769751693" />
+        <entry key="app/src/main/res/layout/activity_permission.xml" value="0.34720570749108204" />
+        <entry key="app/src/main/res/layout/activity_pin.xml" value="0.2796875" />
+        <entry key="app/src/main/res/layout/activity_pin6.xml" value="0.28570372760665813" />
+        <entry key="app/src/main/res/layout/activity_privacy.xml" value="0.2796875" />
+        <entry key="app/src/main/res/layout/activity_privacy_family.xml" value="0.146875" />
+        <entry key="app/src/main/res/layout/activity_privacy_job.xml" value="0.2796875" />
+        <entry key="app/src/main/res/layout/activity_privacy_type.xml" value="0.4074074074074074" />
+        <entry key="app/src/main/res/layout/activity_privacy_wedding.xml" value="0.2796875" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.23278985507246377" />
+        <entry key="app/src/main/res/layout/activity_terms_agree.xml" value="0.3078125" />
+        <entry key="app/src/main/res/layout/activity_verify_sms.xml" value="0.3618339529120198" />
+        <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.4904891304347826" />
+        <entry key="app/src/main/res/layout/fragment_etc.xml" value="0.23278985507246377" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.4904891304347826" />
+        <entry key="app/src/main/res/layout/fragment_my_tax.xml" value="0.278125" />
+        <entry key="app/src/main/res/layout/fragment_my_tax_list.xml" value="0.2796875" />
+        <entry key="app/src/main/res/layout/fragment_notifications.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_simple_chief.xml" value="0.278125" />
+        <entry key="app/src/main/res/layout/fragment_tips.xml" value="0.278125" />
+        <entry key="app/src/main/res/layout/item_analytics.xml" value="0.13541666666666666" />
+        <entry key="app/src/main/res/layout/item_book.xml" value="0.11458333333333333" />
+        <entry key="app/src/main/res/layout/item_connect_assets.xml" value="0.2796875" />
+        <entry key="app/src/main/res/layout/item_empty.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/item_empty_footer.xml" value="0.278125" />
+        <entry key="app/src/main/res/layout/item_estimate_tax.xml" value="0.2796875" />
+        <entry key="app/src/main/res/layout/item_footer.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/item_photo.xml" value="0.13541666666666666" />
+        <entry key="app/src/main/res/layout/item_photo_random.xml" value="0.13541666666666666" />
+        <entry key="app/src/main/res/layout/item_privacy_job.xml" value="0.4517453798767967" />
+        <entry key="app/src/main/res/layout/item_privacy_job_header.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/item_reminder.xml" value="0.13541666666666666" />
+        <entry key="app/src/main/res/layout/item_report.xml" value="0.13541666666666666" />
+        <entry key="app/src/main/res/layout/item_save_tax_tip.xml" value="0.2796875" />
+        <entry key="app/src/main/res/layout/item_simple_chief_header.xml" value="0.13541666666666666" />
+        <entry key="app/src/main/res/layout/item_tab_title.xml" value="0.2796875" />
+        <entry key="app/src/main/res/layout/item_tips.xml" value="0.2796875" />
+        <entry key="app/src/main/res/layout/widget_agree.xml" value="0.4111111111111111" />
+        <entry key="app/src/main/res/layout/widget_agree_all.xml" value="0.40625" />
+        <entry key="app/src/main/res/layout/widget_agree_detail.xml" value="0.40625" />
+        <entry key="app/src/main/res/layout/widget_description.xml" value="0.4203703703703704" />
+        <entry key="app/src/main/res/layout/widget_shuffle_keyboard.xml" value="0.2074074074074074" />
+        <entry key="app/src/main/res/layout/widget_shuffle_number_keyboard.xml" value="0.278125" />
+        <entry key="app/src/main/res/layout/widget_toolbar.xml" value="0.2796875" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.15104166666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
