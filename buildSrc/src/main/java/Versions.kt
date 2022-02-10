@@ -4,6 +4,7 @@ object Versions {
     const val APP_COMPAT = "1.4.0"
     const val MATERIAL = "1.4.0"
     const val CONSTRAINT_LAYOUT = "2.1.2"
+    const val SWIPE_REFRESH = "1.1.0"
     const val ACTIVITY = "1.4.0"
     const val FRAGMENT = "1.4.0"
     const val PAGING = "3.1.0"

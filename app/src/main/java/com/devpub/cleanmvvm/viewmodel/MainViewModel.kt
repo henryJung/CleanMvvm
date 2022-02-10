@@ -18,10 +18,13 @@ class MainViewModel @Inject constructor(
     private val _uiState = MutableStateFlow<UiState>(UiState.Loading)
     val uiState: StateFlow<UiState> = _uiState
 
-    fun getData() {
+    init {
+        getData()
+    }
+
+    private fun getData() {
         viewModelScope.launch {
-            mainUseCase.getData().collect { uiState ->
-                LogD(message = "uiState:$uiState")
+            mainUseCase.getData().collectLatest { uiState ->
                 _uiState.value = uiState
             }
         }

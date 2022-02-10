@@ -47,6 +47,7 @@ dependencies {
     implementation(Kotlin.SDK)
     implementation(Google.MATERIAL)
     implementation(AndroidX.APP_COMPAT)
+    implementation(AndroidX.SWIPE_REFRESH)
     implementation(AndroidX.CONSTRAINT_LAYOUT)
     implementation(AndroidX.LIFECYCLE_VIEW_MODEL)
     implementation(AndroidX.LIFECYCLE_LIVEDATA)

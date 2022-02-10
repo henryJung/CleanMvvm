@@ -15,7 +15,7 @@ import javax.inject.Inject
 class MainRepositoryImpl @Inject constructor(
     private val photoApi: PhotoApi,
     private val bookApi: BookApi,
-    private val dispatcher: CoroutineDispatcher = Dispatchers.IO,
+    private val dispatcher: CoroutineDispatcher,
 ) : MainRepository {
 
     override fun getData() = Pager(
@@ -24,11 +24,8 @@ class MainRepositoryImpl @Inject constructor(
             enablePlaceholders = false
         ),
         pagingSourceFactory = {
-            MainPagingSource(photoApi, bookApi)
+            MainPagingSource(photoApi, bookApi, dispatcher)
         }
-    ).flow.flowOn(dispatcher)
-        .map { UiState.Success(it) }
-        .onStart { UiState.Loading }
-        .catch { UiState.Error(it) }
+    ).flow.map { UiState.Success(it) }
 
 }

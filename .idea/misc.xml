@@ -8,6 +8,7 @@
         <entry key="app/src/main/res/drawable/empty_20.xml" value="0.1925925925925926" />
         <entry key="app/src/main/res/drawable/gradient.xml" value="0.1925925925925926" />
         <entry key="app/src/main/res/drawable/ic_check_on.xml" value="0.45185185185185184" />
+        <entry key="app/src/main/res/drawable/ic_component_error.xml" value="0.1515625" />
         <entry key="app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.1671875" />
         <entry key="app/src/main/res/drawable/ic_icon_memo_off.xml" value="0.1671875" />
         <entry key="app/src/main/res/drawable/ic_note.xml" value="0.13072916666666667" />
@@ -99,6 +100,7 @@
         <entry key="app/src/main/res/layout/widget_agree_all.xml" value="0.40625" />
         <entry key="app/src/main/res/layout/widget_agree_detail.xml" value="0.40625" />
         <entry key="app/src/main/res/layout/widget_description.xml" value="0.4203703703703704" />
+        <entry key="app/src/main/res/layout/widget_list.xml" value="0.13541666666666666" />
         <entry key="app/src/main/res/layout/widget_shuffle_keyboard.xml" value="0.2074074074074074" />
         <entry key="app/src/main/res/layout/widget_shuffle_number_keyboard.xml" value="0.278125" />
         <entry key="app/src/main/res/layout/widget_toolbar.xml" value="0.2796875" />

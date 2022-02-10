@@ -34,6 +34,6 @@ class BaseListAdapter(
             oldItem == newItem
 
         override fun areContentsTheSame(oldItem: T, newItem: T): Boolean =
-            oldItem.viewType == newItem.viewType && oldItem.hashCode() == newItem.hashCode()
+            oldItem.viewType == newItem.viewType && oldItem.getKey() == newItem.getKey()
     }
 }

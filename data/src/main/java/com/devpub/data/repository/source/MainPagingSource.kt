@@ -7,6 +7,7 @@ import com.devpub.data.model.mapper.PhotoMapper.mapToPhoto
 import com.devpub.data.remote.BookApi
 import com.devpub.data.remote.PhotoApi
 import com.devpub.domain.model.ListItem
+import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.async
 import kotlinx.coroutines.coroutineScope
 import java.lang.Exception
@@ -15,6 +16,7 @@ import java.lang.RuntimeException
 class MainPagingSource constructor(
     private val photoApi: PhotoApi,
     private val bookApi: BookApi,
+    private val dispatcher: CoroutineDispatcher,
 ) : PagingSource<Int, ListItem>() {
 
     override fun getRefreshKey(state: PagingState<Int, ListItem>): Int? {
@@ -29,7 +31,7 @@ class MainPagingSource constructor(
             val page = params.key ?: 1
             val list = mutableListOf<ListItem>()
             coroutineScope {
-                val photoList = async {
+                val photoList = async(dispatcher) {
                     val photoResponse = photoApi.getList(page)
                     if (photoResponse.isSuccessful) {
                         return@async photoResponse.body()?.map { it.mapToPhoto() } ?: emptyList()
@@ -37,7 +39,7 @@ class MainPagingSource constructor(
                         throw RuntimeException("[${photoResponse.code()}] - ${photoResponse.raw()}")
                     }
                 }
-                val bookList = async {
+                val bookList = async(dispatcher) {
                     val bookResponse = bookApi.getList("java", page)
                     if (bookResponse.isSuccessful) {
                         return@async bookResponse.body()?.books?.map { it.mapToBook() }
